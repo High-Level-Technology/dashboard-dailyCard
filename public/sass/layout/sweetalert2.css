@@ -1,0 +1,9 @@
+body.swal2-toast-shown .swal2-container.toast {
+    width: 90%; min-width: 400px; max-width: 480px;
+}
+
+@media (max-width: 480px) {
+    body.swal2-toast-shown .swal2-container.toast {
+        min-width: 95%; max-width: 95%;
+    }
+}
